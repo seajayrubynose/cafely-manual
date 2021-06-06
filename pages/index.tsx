@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <div className="flex flex-grow flex-col h-full w-full max-w-5xl mx-auto">
-        <div className="flex flex-grow">
+        <div className="flex">
           <SideNav />
           <div className="w-full p-5 pt-16">
             <h1>Getting Started</h1>
