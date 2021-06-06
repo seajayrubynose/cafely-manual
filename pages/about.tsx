@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import gettingstarted from "./gettingstarted.mdx";
 
 export interface AboutProps {}
 
@@ -12,6 +13,7 @@ const About: React.SFC<AboutProps> = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>About</div>
+      <gettingstarted />
     </>
   );
 };
