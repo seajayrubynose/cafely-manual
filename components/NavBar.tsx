@@ -22,7 +22,7 @@ const NavBar = () => {
               onClick={() => {
                 window.location.href = "https://cafely.vercel.app/";
               }}
-              className="default-btn"
+              className="default-btn text-sm"
             >
               Visit Cafe.ly
             </button>
