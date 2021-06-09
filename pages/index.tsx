@@ -22,7 +22,7 @@ export default function Home() {
         }}
       >
         <div className="absolute flex flex-grow flex-col w-full h-full bg-white opacity-30"></div>
-        <div className="relative max-w-5xl h-full mx-auto flex flex-col space-y-6 items-center text-gray-800 text-center py-20">
+        <div className="relative max-w-5xl h-full mx-auto flex flex-col space-y-6 items-center text-gray-800 text-center py-20 px-10">
           <h1 className="font-extrabold text-7xl text-gray-900">
             Cafe.ly's User Manual
           </h1>
