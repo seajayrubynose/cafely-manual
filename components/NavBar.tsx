@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
+import AnchorButton from "./AnchorButton";
 
 const NavBar = () => {
   return (
-    <nav className="overflow-hidden h-20 shadow-md top-0 sticky">
+    <nav className="overflow-hidden h-20 shadow-md top-0 sticky z-10">
       <div className="max-w-5xl bg-white h-full mx-auto">
         <div className="flex justify-between p-2 items-center h-full">
           <Link href="/">
@@ -18,14 +19,12 @@ const NavBar = () => {
           </Link>
 
           <div>
-            <button
-              onClick={() => {
-                window.location.href = "https://cafely.vercel.app/";
-              }}
+            <AnchorButton
+              href="https://cafely.vercel.app/"
               className="default-btn text-sm"
             >
-              Visit Cafe.ly
-            </button>
+              Visit Me Nice!
+            </AnchorButton>
           </div>
         </div>
       </div>
