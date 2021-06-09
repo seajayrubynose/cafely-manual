@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface MyProps {
   children?: React.ReactNode;
   href: string;
@@ -10,19 +12,11 @@ const AnchorButton = ({
   className = "default-btn",
 }: MyProps) => {
   return (
-    <button
-      onClick={() => {
-        window.location.href = href;
-      }}
-      onMouseUp={(e) => {
-        if (e.button === 1) {
-          window.open(href, "_blank");
-        }
-      }}
-      className={className}
-    >
-      {children}
-    </button>
+    <Link href={href}>
+      <a>
+        <button className={className}>{children && children}</button>
+      </a>
+    </Link>
   );
 };
 
