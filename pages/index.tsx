@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import AnchorButton from "../components/AnchorButton";
 import SideNav from "../components/SideNav";
 import styles from "../styles/Home.module.css";
 
@@ -31,12 +32,8 @@ export default function Home() {
             the planet
           </p>
           <div className="flex space-x-4 text-xl">
-            <Link href="/manual">
-              <button className="default-btn">Manual</button>
-            </Link>
-            <Link href="/journal">
-              <button className="default-btn">Dev Journal</button>
-            </Link>
+            <AnchorButton href="/manual">Manual</AnchorButton>
+            <AnchorButton href="/journal">Dev Journal</AnchorButton>
           </div>
         </div>
       </div>

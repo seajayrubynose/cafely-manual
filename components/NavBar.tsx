@@ -23,7 +23,7 @@ const NavBar = () => {
               href="https://cafely.vercel.app/"
               className="default-btn text-sm"
             >
-              Visit Me Nice!
+              Visit Cafe.ly
             </AnchorButton>
           </div>
         </div>
