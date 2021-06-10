@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className="max-w-5xl bg-white h-full mx-auto">
         <div className="flex justify-between p-2 items-center h-full">
           <Link href="/">
-            <a className="flex items-center space-x-1">
+            <a className="flex items-center space-x-1 select-none">
               <img
                 src="https://raw.githubusercontent.com/Blankeos/cit214-productreviewapp/aa351811b2cae40c61b750bdb137b68cc3d0ea38/src/assets/imgs/cafely_logo.svg"
                 alt="Cafely Logo"
