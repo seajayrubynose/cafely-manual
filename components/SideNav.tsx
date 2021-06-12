@@ -7,7 +7,7 @@ interface SideNavProps {
 
 const SideNav = ({ links }: SideNavProps) => {
   return (
-    <div className="bg-primary p-5 pt-16 flex-grow w-64">
+    <div className="bg-primary p-5 pt-16 flex-grow flex-shrink-0 w-56">
       <ul className="text-sm flex flex-col space-y-4 text-white">
         {links &&
           links.map((link) => {
