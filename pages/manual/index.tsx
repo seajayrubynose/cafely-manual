@@ -3,7 +3,10 @@ import Image from "next/image";
 import SideNav from "../../components/SideNav";
 import styles from "../styles/Home.module.css";
 
-export default function Manual() {
+import { GetStaticProps } from "next";
+import { getAllManualContent } from "../../lib/data";
+
+export default function Manual(props: any) {
   return (
     <>
       <Head>
@@ -18,9 +21,11 @@ export default function Manual() {
       <div className="flex flex-grow flex-col bg-gray-50">
         <div className="flex flex-grow flex-col h-full w-full max-w-5xl mx-auto">
           <div className="flex flex-grow">
-            <SideNav />
+            {props.allManualContent && (
+              <SideNav links={props.allManualContent} />
+            )}
             <div className="w-full p-5 pt-16">
-              <h1>Getting Started</h1>
+              <h1>Manual Page Index.tsx</h1>
               <p>Nice nice nice very nice</p>
             </div>
           </div>
@@ -29,3 +34,18 @@ export default function Manual() {
     </>
   );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  const allManualContent = getAllManualContent();
+  console.log("stupieeed");
+  return {
+    props: {
+      allManualContent: allManualContent.map((item) => {
+        return {
+          title: item.data.title,
+          slug: item.slug,
+        };
+      }),
+    },
+  };
+};
