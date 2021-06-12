@@ -49,7 +49,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   return {
     props: {
       ...content?.data,
-      date: content?.data.date.toISOString(),
+      date: content?.data.date,
       content: mdxSource,
       allManualContent: allManualContent,
     },

@@ -12,7 +12,7 @@ const SideNav = ({ links }: SideNavProps) => {
         {links &&
           links.map((link) => {
             return (
-              <Link href={`/manual/${link.slug}`}>
+              <Link key={link.slug} href={`/manual/${link.slug}`}>
                 <a>
                   <li className="hover:text-yellow-300">{link.title}</li>
                 </a>
