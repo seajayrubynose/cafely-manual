@@ -23,5 +23,5 @@ module.exports = {
       outline: ["active"],
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
