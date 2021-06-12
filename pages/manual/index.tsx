@@ -4,7 +4,7 @@ import SideNav from "../../components/SideNav";
 import styles from "../styles/Home.module.css";
 
 import { GetStaticProps } from "next";
-import { getAllManualContent } from "../../lib/data";
+import { getAllManualContent, getAllManualLinks } from "../../lib/data";
 
 export default function Manual(props: any) {
   return (
@@ -40,12 +40,7 @@ export const getStaticProps: GetStaticProps = async () => {
   console.log("stupieeed");
   return {
     props: {
-      allManualContent: allManualContent.map((item) => {
-        return {
-          title: item.data.title,
-          slug: item.slug,
-        };
-      }),
+      allManualContent: getAllManualLinks(),
     },
   };
 };

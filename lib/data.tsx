@@ -23,3 +23,14 @@ export function getAllManualContent() {
     };
   });
 }
+
+export function getAllManualLinks() {
+  const allManualContent = getAllManualContent();
+
+  return allManualContent.map((item) => {
+    return {
+      title: item.data.title,
+      slug: item.slug,
+    };
+  });
+}

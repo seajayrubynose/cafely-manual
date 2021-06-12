@@ -2,7 +2,7 @@ import Head from "next/head";
 import React from "react";
 import SideNav from "../../components/SideNav";
 
-import { getAllManualContent } from "../../lib/data";
+import { getAllManualContent, getAllManualLinks } from "../../lib/data";
 import { GetStaticProps, GetStaticPaths } from "next";
 
 import { serialize } from "next-mdx-remote/serialize";
@@ -23,7 +23,9 @@ const ManualPage = (props: any) => {
       <div className="flex flex-grow flex-col bg-gray-50">
         <div className="flex flex-grow flex-col h-full w-full max-w-5xl mx-auto">
           <div className="flex flex-grow">
-            <SideNav links={props.allManualContent} />
+            {props.allManualContent && (
+              <SideNav links={props.allManualContent} />
+            )}
             <div className="w-full p-5 pt-16">
               <div className="whitespace-pre prose">
                 <MDXRemote {...props.content} components={<h2>Hello!</h2>} />
@@ -51,7 +53,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       ...content?.data,
       date: content?.data.date,
       content: mdxSource,
-      allManualContent: allManualContent,
+      allManualContent: getAllManualLinks(),
     },
   };
 };
