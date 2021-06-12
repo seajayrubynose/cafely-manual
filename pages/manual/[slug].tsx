@@ -26,7 +26,7 @@ const ManualPage = (props: any) => {
             {props.allManualContent && (
               <SideNav links={props.allManualContent} />
             )}
-            <div className="w-full p-5 pt-16">
+            <div className="w-full px-16 pt-16">
               <div className="whitespace-pre prose">
                 <MDXRemote {...props.content} components={<h2>Hello!</h2>} />
               </div>

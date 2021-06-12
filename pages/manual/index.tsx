@@ -37,7 +37,6 @@ export default function Manual(props: any) {
 
 export const getStaticProps: GetStaticProps = async () => {
   const allManualContent = getAllManualContent();
-  console.log("stupieeed");
   return {
     props: {
       allManualContent: getAllManualLinks(),
