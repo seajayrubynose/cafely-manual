@@ -27,10 +27,13 @@ export function getAllManualContent() {
 export function getAllManualLinks() {
   const allManualContent = getAllManualContent();
 
-  return allManualContent.map((item) => {
+  const toReturn = allManualContent.map((item) => {
     return {
       title: item.data.title,
       slug: item.slug,
+      order: item.data.order,
     };
   });
+
+  return toReturn.sort((a, b) => (a.order > b.order ? 1 : -1));
 }
