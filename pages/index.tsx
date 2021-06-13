@@ -36,7 +36,9 @@ export default function Home() {
           </p>
           <div className="flex space-x-4 text-xl">
             <AnchorButton href="/manual">Manual</AnchorButton>
-            <AnchorButton href="/journal">Dev Journal</AnchorButton>
+            <AnchorButton className="secondary-btn" href="/journal">
+              Dev Journal
+            </AnchorButton>
           </div>
         </div>
       </div>
