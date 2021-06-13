@@ -11,7 +11,7 @@ const SideNav = ({ additionalClass, links }: SideNavProps) => {
     <div
       className={`bg-primary p-5 pt-16 flex-grow flex-shrink-0 w-56" ${additionalClass}`}
       style={{
-        boxShadow: "0px 0px 14px 0px rgba(0, 0, 0, 0.20)",
+        boxShadow: "7px 0px 20px 0px rgba(50, 50, 50, 0.20);",
       }}
     >
       <ul className="text-sm flex flex-col space-y-4 text-white">

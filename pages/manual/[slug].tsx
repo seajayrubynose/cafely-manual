@@ -41,7 +41,7 @@ const ManualPage = (props: any) => {
               />
             )}
             {/* 2nd element Content */}
-            <div className="w-full px-16 py-16">
+            <div className="w-full px-8 lg:px-16 py-16">
               <div className="whitespace-pre-wrap prose">
                 <MDXRemote {...props.content} components={<h2>Hello!</h2>} />
               </div>
@@ -49,12 +49,12 @@ const ManualPage = (props: any) => {
           </div>
         </div>
 
-        {/* Button */}
+        {/* Mobile SideNav Button */}
         <button
           onClick={() => setSideMenuIsVisible(!sideMenuIsVisible)}
-          className="md:hidden fixed bottom-0 right-0 m-10 bg-primary rounded-full p-3 shadow-md"
+          className="md:hidden fixed top-20 right-0 m-5 bg-primary rounded-full p-4 shadow-md"
         >
-          <HiMenuAlt3 className="text-white" size="1.3em" />
+          <HiMenuAlt3 className="text-white" size="1.5em" />
         </button>
       </div>
     </>
