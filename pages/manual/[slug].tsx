@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import SideNav from "../../components/SideNav";
+import { useState } from "react";
 
 import { getAllManualContent, getAllManualLinks } from "../../lib/data";
 import { GetStaticProps, GetStaticPaths } from "next";
@@ -8,7 +9,12 @@ import { GetStaticProps, GetStaticPaths } from "next";
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
 
+// Icons
+import { HiMenuAlt3 } from "react-icons/hi";
+
 const ManualPage = (props: any) => {
+  const [sideMenuIsVisible, setSideMenuIsVisible] = useState(true);
+
   return (
     <>
       <Head>
@@ -20,19 +26,36 @@ const ManualPage = (props: any) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex flex-grow flex-col bg-gray-50">
+      {/* Main Container COL for covering whole Height*/}
+      <div className="relative flex flex-grow flex-col bg-gray-50">
         <div className="flex flex-grow flex-col h-full w-full max-w-5xl mx-auto">
-          <div className="flex flex-grow">
+          {/* Flex Container for 2 elements */}
+          <div className="relative flex flex-grow">
+            {/* 1st element SideNav */}
             {props.allManualContent && (
-              <SideNav links={props.allManualContent} />
+              <SideNav
+                links={props.allManualContent}
+                additionalClass={`absolute z-10 h-full md:block md:relative md:h-auto ${
+                  sideMenuIsVisible && "hidden"
+                }`}
+              />
             )}
-            <div className="w-full px-16 pt-16">
-              <div className="whitespace-pre prose">
+            {/* 2nd element Content */}
+            <div className="w-full px-16 py-16">
+              <div className="whitespace-pre-wrap prose">
                 <MDXRemote {...props.content} components={<h2>Hello!</h2>} />
               </div>
             </div>
           </div>
         </div>
+
+        {/* Button */}
+        <button
+          onClick={() => setSideMenuIsVisible(!sideMenuIsVisible)}
+          className="md:hidden fixed bottom-0 right-0 m-10 bg-primary rounded-full p-3 shadow-md"
+        >
+          <HiMenuAlt3 className="text-white" size="1.3em" />
+        </button>
       </div>
     </>
   );
