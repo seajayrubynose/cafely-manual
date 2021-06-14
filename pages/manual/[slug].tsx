@@ -42,7 +42,7 @@ const ManualPage = (props: any) => {
             )}
             {/* 2nd element Content */}
             <div className="w-full px-8 lg:px-16 py-16">
-              <div className="whitespace-pre-wrap prose">
+              <div className="whitespace-pre-wrap prose md-image">
                 <MDXRemote {...props.content} components={<h2>Hello!</h2>} />
               </div>
             </div>

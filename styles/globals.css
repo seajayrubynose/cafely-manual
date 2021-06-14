@@ -28,3 +28,7 @@ a {
 .secondary-btn {
   @apply select-none shadow-md border-2 border-primary bg-transparent px-5 py-2 rounded-full text-primary transition hover:bg-yellow-400 hover:border-yellow-400 hover:text-white hover:scale-105 transform active:scale-75 focus:outline-none disabled:opacity-40;
 }
+
+.md-image img {
+  @apply rounded shadow-lg;
+}
