@@ -2,11 +2,16 @@ import Head from "next/head";
 import Image from "next/image";
 import SideNav from "../../components/SideNav";
 import styles from "../styles/Home.module.css";
-
 import { GetStaticProps } from "next";
 import { getAllManualContent, getAllManualLinks } from "../../lib/data";
+import { useEffect } from "react";
+import { useRouter } from "next/dist/client/router";
 
 export default function Manual(props: any) {
+  const router = useRouter();
+  useEffect(() => {
+    router.push("/manual/GettingStarted", undefined, { shallow: true });
+  }, []);
   return (
     <>
       <Head>
