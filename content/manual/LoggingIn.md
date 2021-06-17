@@ -14,6 +14,8 @@ order: 1
 
 4. Click on [Login]
 
+You are now logged into your account!
+
 ---
 
 More:

@@ -7,9 +7,20 @@ order: 2
 # Change Account Info
 
 1. Make sure you are [logged in](/manual/LoggingIn).
-2. a
-3. a
-4. a
+
+2. Click on the Profile Button
+
+3. Click on Account Settings
+
+4. Customize Account Settings:
+
+- Change profile picture
+- Change display name
+- Change bio
+
+5. Click on the "Update my profile" button
+
+Your account info has now been changed!
 
 ---
 

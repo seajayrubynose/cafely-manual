@@ -6,10 +6,13 @@ order: 4
 
 # Viewing Profiles
 
-1. Click on the Profile Button
-2. a
-3. a
-4. a
+1. Go to any product's page.
+
+2. Scroll down to "Ratings & Reviews"
+
+3. Click on a reviewer's name or profile picture
+
+You may now view another user's profile!
 
 ---
 

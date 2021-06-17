@@ -10,7 +10,7 @@ order: 3
    ![Click Profile Button](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/signingout_0.jpg)
 2. Click on Sign Out
 
-Gj,gj... Congratulations!
+You are now signed out of your account!
 
 ---
 
