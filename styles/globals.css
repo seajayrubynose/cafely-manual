@@ -30,5 +30,5 @@ a {
 }
 
 .md-image img {
-  @apply rounded shadow-lg;
+  @apply rounded-md shadow-lg border;
 }
