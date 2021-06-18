@@ -7,10 +7,9 @@ order: 4
 # Signing Out Of Your Account
 
 1. Click on the Profile Button
-   ![Click Profile Button](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/signingout_0.jpg)
-2. Click on Sign Out
 
-Gj,gj... Congratulations!
+2. Click "Sign Out" at the bottom of the drop-down menu
+   ![Click Sign Out](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/signingout_0.jpg)
 
 ---
 
