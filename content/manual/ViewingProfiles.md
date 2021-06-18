@@ -4,7 +4,7 @@ date: "2021-02-18T19:05:27.2282"
 order: 5
 ---
 
-# Viewing Profiles
+# 🧐 Viewing Profiles
 
 1. Go to any product's page.
 
