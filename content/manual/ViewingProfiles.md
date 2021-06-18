@@ -4,7 +4,7 @@ date: "2021-02-18T19:05:27.2282"
 order: 5
 ---
 
-# Viewing Profiles
+# 🧐 Viewing Profiles
 
 1. Click on the Profile Button
 2. a

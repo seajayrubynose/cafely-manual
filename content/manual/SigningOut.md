@@ -4,7 +4,7 @@ date: "2021-02-18T19:05:27.2282"
 order: 4
 ---
 
-# Signing Out Of Your Account
+# 🚪 Signing Out Of Your Account
 
 1. Click on the Profile Button
 

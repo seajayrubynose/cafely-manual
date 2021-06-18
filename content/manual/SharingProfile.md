@@ -4,7 +4,7 @@ date: "2021-02-18T19:05:27.2282"
 order: 6
 ---
 
-# Sharing Your Profile
+# 🤝 Sharing Your Profile
 
 1. Go to [Profile](https://cafely.vercel.app/profile)
 
