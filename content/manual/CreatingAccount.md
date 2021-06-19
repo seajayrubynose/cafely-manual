@@ -6,11 +6,12 @@ order: 1
 
 # 🤩 Creating An Account
 
-1. Go to [cafely.vercel.app/register](cafely.vercel.app/register)
+1. Go to [cafely.vercel.app/register](https://cafely.vercel.app/register)
 2. Fill up **Display Name**
 3. Fill up **Email**
 4. Fill up **Password**
-5. Click **[Submit]**
+   ![CreateAccount](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/creatingaccount_0.jpg)
+5. Click **[Register]**
 
 You're automatically logged in after creating an account
 

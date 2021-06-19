@@ -11,6 +11,7 @@ order: 2
 2. Enter your **email**
 
 3. Enter your **password**
+   ![LoggingIn](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/loggingin_0.jpg)
 
 4. Click on **[Login]**
 
