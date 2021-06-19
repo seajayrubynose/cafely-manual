@@ -16,6 +16,8 @@ order: 2
 
 You will be redirected to the home page after logging in
 
+You are now logged into your account!
+
 ---
 
 Related Articles
