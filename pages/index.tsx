@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <div
-        className="relative bg-primary flex flex-grow justify-center items-center"
+        className="relative bg-white flex flex-grow justify-center items-center"
         style={{
           backgroundImage: `url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F6NlmBQLhWy2QM%2Fsource.gif&f=1&nofb=1')`,
           backgroundPosition: "center",
