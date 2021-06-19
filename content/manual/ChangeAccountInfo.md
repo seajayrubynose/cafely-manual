@@ -19,14 +19,14 @@ You have two options for changing your profile picture:
 - [Upload using Link](#upload_using_link) - you can get an "image" link from the internet and paste it. -->
 
 <details>
-   <summary><b>Upload own Photo</b></summary>
+   <summary style={{fontSize: "1.3rem"}}><b>Upload own Photo</b></summary>
    
    You can upload a file from your device and into our database.
 
    <ol>
       <li>Click on <b>[Upload own Photo]</b></li>
       <li>Choose a photo you want from the files on your device.</li>
-      <li>Once the photo is uploaded, your profile picture is updated. No need to press Update my profile.</li>
+      <li>Once the photo is uploaded, your profile picture is already updated. No need to press Update my profile.</li>
    </ol>
 
 </details>
@@ -34,7 +34,7 @@ You have two options for changing your profile picture:
 <br />
 
 <details>
-   <summary><b>Upload using Link</b></summary>
+   <summary style={{fontSize: "1.3rem"}}><b>Upload using Link</b></summary>
    
    You can get an "image" link from the internet and simply paste it on our site!
    
