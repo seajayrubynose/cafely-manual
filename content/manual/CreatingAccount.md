@@ -22,8 +22,8 @@ You're automatically logged in after creating an account
 
 ---
 
-More
+Related Articles
 
-- 👉 [Logging In To Your Account](/manual/LoggingIn)
-- 🚪 [Signing Out Of Your Account](/SigningOut)
-- 😎 [Change Account Info](/ChangeAccountInfo)
+- 👉 [Logging In To Your Account &rarr;](/manual/LoggingIn)
+- 🚪 [Signing Out Of Your Account &rarr;](/SigningOut)
+- 😎 [Change Account Info &rarr;](/ChangeAccountInfo)

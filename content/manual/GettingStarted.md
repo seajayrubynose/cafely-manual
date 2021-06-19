@@ -40,8 +40,8 @@ Now do some exploring on your own! You can use this user manual if you ever get 
 
 More detailed instructions on each step are here:
 
-- [Creating your account](/manual/CreatingAccount)
-- [Submitting your first review](/manual/SubmittingReview)
+- [Creating your account &rarr;](/manual/CreatingAccount)
+- [Submitting your first review &rarr;](/manual/SubmittingReview)
 
 <!-- <details>
 <summary>Creating your account</summary>

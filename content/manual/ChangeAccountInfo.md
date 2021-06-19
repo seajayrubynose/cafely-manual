@@ -67,7 +67,7 @@ You have two options for changing your profile picture:
 
 ---
 
-More:
+Related Articles
 
-- [Create Account](/manual/CreateAccount)
-- [Can't Sign In](/manual/CantSignIn)
+- 🤩 [Create Account &rarr;](/manual/CreateAccount)
+- 😭 [Can't Sign In (Not Available)](/manual/CantSignIn)

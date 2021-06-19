@@ -6,14 +6,15 @@ order: 4
 
 # 🚪 Signing Out Of Your Account
 
-1. Click on the Profile Button
+1. Click on your **Profile** on the top-right of the screen.
 
-2. Click "Sign Out" at the bottom of the drop-down menu
+2. Click **Sign Out** at the bottom of the drop-down menu
    ![Click Sign Out](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/signingout_0.jpg)
 
 ---
 
-More:
+Related articles
 
-- [Create Account](/manual/CreateAccount)
-- [Can't Sign In](/manual/CantSignIn)
+- 👉 [Logging In To Your Account &rarr;](/manual/LoggingIn)
+- 🤩 [Create Account &rarr;](/manual/CreateAccount)
+- 😭 [Can't Sign In (Not Available)](/manual/CantSignIn)
