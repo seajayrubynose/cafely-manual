@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav className="overflow-hidden h-20 shadow-md top-0 sticky z-30">
       <div className="max-w-5xl bg-white h-full mx-auto">
-        <div className="flex justify-between p-2 items-center h-full">
+        <div className="flex justify-between p-5 items-center h-full">
           <Link href="/">
             <a className="flex items-center space-x-1 select-none">
               <img

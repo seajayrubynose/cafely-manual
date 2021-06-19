@@ -4,7 +4,7 @@ date: "2021-02-18T19:05:27.2282"
 order: 1
 ---
 
-# 🐱‍🚀 Creating An Account
+# 🤩 Creating An Account
 
 1. Go to [cafely.vercel.app/register](cafely.vercel.app/register)
 2. Fill up **Display Name**
@@ -22,8 +22,8 @@ You're automatically logged in after creating an account
 
 ---
 
-More
+Related Articles
 
-- 👉 [Logging In To Your Account](/manual/LoggingIn)
-- 🚪 [Signing Out Of Your Account](/SigningOut)
-- 😎 [Change Account Info](/ChangeAccountInfo)
+- 👉 [Logging In To Your Account &rarr;](/manual/LoggingIn)
+- 🚪 [Signing Out Of Your Account &rarr;](/SigningOut)
+- 😎 [Change Account Info &rarr;](/ChangeAccountInfo)

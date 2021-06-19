@@ -8,19 +8,21 @@ order: 2
 
 1. Go to [cafely.vercel.app/login](https://cafely.vercel.app/login)
 
-2. Enter your email
+2. Enter your **email**
 
-3. Enter your password
+3. Enter your **password**
 
-4. Click on [Login]
+4. Click on **[Login]**
+
+You will be redirected to the home page after logging in
 
 You are now logged into your account!
 
 ---
 
-More:
+Related Articles
 
-- 🚪 [Signing Out Of Your Account](/SigningOut)
-- 😎 [Change Account Info](/ChangeAccountInfo)
-<!-- - [Can't Sign In](/manual/CantSignIn) -->
-- 🐱‍🚀 [Create Account](/manual/CreateAccount)
+- 🚪 [Signing Out Of Your Account &rarr;](/SigningOut)
+- 😎 [Change Account Info &rarr;](/ChangeAccountInfo)
+- 😭 [Can't Sign In (Not Available)](/manual/CantSignIn)
+- 🤩 [Create Account &rarr;](/manual/CreateAccount)

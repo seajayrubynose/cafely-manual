@@ -6,9 +6,9 @@ order: 6
 
 # 🤝 Sharing Your Profile
 
-1. Go to [Profile](https://cafely.vercel.app/profile)
+1. Go to [cafely.vercel.app/profile](https://cafely.vercel.app/profile)
 
-2. Click on [Get Profile Link]
+2. Click on **[Get Profile Link]**
 
    [Image here]
 
@@ -22,7 +22,8 @@ order: 6
 
 > When you share the link, it won't show the **social preview** on your profile on sites like Facebook, Twitter, or Messenger because we're unfortunately using Create-React-App and does not allow SEO or OpenGraph to crawl Client-Side-Rendered pages.
 
-More:
+---
 
-- [Create Account](/manual/CreateAccount)
-- [Can't Sign In](/manual/CantSignIn)
+Related Articles
+
+- 😎 [Change Account Info &rarr;](/ChangeAccountInfo)
