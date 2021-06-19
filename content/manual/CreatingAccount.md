@@ -4,7 +4,7 @@ date: "2021-02-18T19:05:27.2282"
 order: 1
 ---
 
-# 🐱‍🚀 Creating An Account
+# 🤩 Creating An Account
 
 1. Go to [cafely.vercel.app/register](cafely.vercel.app/register)
 2. Fill up **Display Name**
