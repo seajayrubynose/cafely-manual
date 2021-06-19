@@ -20,7 +20,7 @@ order: 6
 
 **📝 Developer Notes**
 
-> When you share the link, it won't show the **social preview** on your profile on sites like Facebook, Twitter, or Messenger because we're unfortunately using Create-React-App and does not allow SEO or OpenGraph to crawl Client-Side-Rendered pages.
+> When you share the link, it won't show the **social preview** on your profile on sites like Facebook, Twitter, or Messenger because we're using Create-React-App which unfortunately does not allow SEO or OpenGraph bots to crawl through our Client-Side-Rendered pages.
 
 ---
 
