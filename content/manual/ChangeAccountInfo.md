@@ -10,6 +10,7 @@ Make sure you are [logged in](/manual/LoggingIn) first
 
 1. Click on your **Profile** on the top-right of the screen.
 2. Click **Account Settings** on the drop-down menu.
+   ![ChangingAccountInfo](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_0.jpg)
 
 ## Changing your Profile Picture
 
@@ -37,12 +38,15 @@ You have two options for changing your profile picture:
    <summary style={{fontSize: "1.3rem"}}><b>Upload using Link</b></summary>
    
    You can get an "image" link from the internet and simply paste it on our site!
-   
+
    <ol>
       <li>Copy an image link from the internet <i>(.jpg, .png, etc.)</i></li>
+      <img src="https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_3.jpg" /> 
       <li>Click on <b>[Upload using Link]</b></li>
       <li>Paste the link you copied and press <b>[Save]</b></li>
+      <img src="https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_4.jpg" />
       <li>Press <b>[Update my profile]</b>, otherwise your changes will not be saved.</li>
+      <img src="https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_5.jpg" />
    </ol>
 </details>
 
@@ -55,8 +59,11 @@ You have two options for changing your profile picture:
 1.  Change the **Display Name** to whatever you want.
 2.  Change the **Bio** to whatever you want.
 3.  Click on **[Update my profile]**.
+    ![ChangingAccountInfo](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_1.jpg)
 
-    Your changes will not be saved until you press the button.
+        Your changes will not be saved until you press the button.
+
+    ![ChangingAccountInfo](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_2.jpg)
 
 ## Changing your Email and Password
 

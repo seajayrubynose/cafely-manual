@@ -12,7 +12,11 @@ order: 5
 
 3. Click on a reviewer's name or profile picture
 
+   ![ViewingProfiles](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/viewingprofiles_0.jpg)
+
 You may now view another user's profile!
+
+![ViewingProfiles](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/viewingprofiles_1.jpg)
 
 ---
 

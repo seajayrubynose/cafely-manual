@@ -10,7 +10,7 @@ Make sure you are logged in first.
 
 1. Go to [cafely.vercel.app/review](https://cafely.vercel.app/review)
 
-   [image here]
+   ![SubmittingAReview](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/submittingreview_0.jpg)
 
 2. Search a product you want to choose to review
 
@@ -18,11 +18,13 @@ Make sure you are logged in first.
 
 4. Write your review on the **Review** box. (Optional)
 
-5. Click on **[Post My Review]**
+5. Click on **[Post My Rating]**
+
+   ![SubmittingAReview](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/submittingreview_1.jpg)
 
 6. Your review will be visible on that product's page
 
-   [image here]
+   ![SubmittingAReview](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/submittingreview_2.jpg)
 
 ---
 
@@ -30,9 +32,9 @@ Make sure you are logged in first.
 
 You can also click on these buttons to directly review a product without searching them on the review page. They will automatically fill up the product search field for you.
 
-[Image 1]
+![SubmittingAReview](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/submittingreview_3.jpg)
 
-[Image 2]
+![SubmittingAReview](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/submittingreview_4.jpg)
 
 ---
 
