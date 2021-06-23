@@ -35,9 +35,8 @@ const ManualPage = (props: any) => {
             {props.allManualContent && (
               <SideNav
                 links={props.allManualContent}
-                additionalClass={`absolute z-10 h-full md:block md:relative md:h-auto ${
-                  sideMenuIsVisible && "hidden"
-                }`}
+                additionalClass={``}
+                isActive={sideMenuIsVisible}
               />
             )}
             {/* 2nd element Content */}
