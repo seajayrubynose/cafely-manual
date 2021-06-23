@@ -35,7 +35,6 @@ const ManualPage = (props: any) => {
             {props.allManualContent && (
               <SideNav
                 links={props.allManualContent}
-                additionalClass={``}
                 isActive={sideMenuIsVisible}
               />
             )}
