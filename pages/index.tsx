@@ -27,14 +27,14 @@ export default function Home() {
       >
         <div className="absolute flex flex-grow flex-col w-full h-full bg-white opacity-40"></div>
         <div className="relative max-w-5xl h-full mx-auto flex flex-col space-y-6 items-center text-gray-800 text-center py-20 px-10">
-          <h1 className="font-extrabold text-7xl text-gray-900">
+          <h1 className="font-extrabold text-5xl md:text-7xl text-gray-900">
             Cafe.ly's User Manual
           </h1>
-          <p>
+          <p className="text-sm md:text-base">
             ☕ An <b>awesome guide</b> to the most awesome coffee review site in
             the planet
           </p>
-          <div className="flex space-x-4 text-xl">
+          <div className="flex space-x-4 md:text-xl">
             <AnchorButton href="/manual/GettingStarted">Manual</AnchorButton>
             <AnchorButton className="secondary-btn" href="/journal">
               Dev Journal
