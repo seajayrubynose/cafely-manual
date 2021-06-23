@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
+import { useMediaQuery } from "react-responsive";
 
 interface SideNavProps {
   additionalClass?: string;
@@ -11,7 +12,9 @@ interface SideNavProps {
 const SideNav = ({ additionalClass, links, isActive }: SideNavProps) => {
   const animation = useAnimation();
 
-  useEffect(() => {
+  const isMD = useMediaQuery({ query: "(min-width: 768px)" }); // based on tailwind
+
+  const setAnim = () => {
     if (isActive) {
       animation.start({
         x: 0,
@@ -27,7 +30,24 @@ const SideNav = ({ additionalClass, links, isActive }: SideNavProps) => {
         },
       });
     }
+  };
+
+  useEffect(() => {
+    setAnim();
   }, [isActive]);
+
+  useEffect(() => {
+    if (isMD) {
+      animation.start({
+        x: 0,
+        transition: {
+          ease: "circOut",
+        },
+      });
+    } else {
+      setAnim();
+    }
+  }, [isMD]);
 
   return (
     <motion.div
