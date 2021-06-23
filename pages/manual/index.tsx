@@ -27,7 +27,7 @@ export default function Manual(props: any) {
         <div className="flex flex-grow flex-col h-full w-full max-w-5xl mx-auto">
           <div className="flex flex-grow">
             {props.allManualContent && (
-              <SideNav links={props.allManualContent} />
+              <SideNav links={props.allManualContent} isActive={true} />
             )}
             <div className="w-full p-5 pt-16">
               <h1>Manual Page Index.tsx</h1>
