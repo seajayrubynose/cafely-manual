@@ -66,6 +66,8 @@ You have two options for changing your profile picture:
     ![ChangingAccountInfo](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_1.jpg)
     ![ChangingAccountInfo](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_2.jpg)
 
+---
+
 ## Changing your Email and Password
 
 ```
