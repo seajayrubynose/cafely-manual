@@ -22,5 +22,4 @@ order: 9
 
 More:
 
-- [Create Account](/manual/CreatingAccount)
-- [Can't Sign In](/manual/CantSignIn)
+- 🔎 [Searching for a Product &rarr;](/manual/SearchingForAProduct)
