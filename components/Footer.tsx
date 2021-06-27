@@ -23,11 +23,11 @@ const Footer = () => {
               </div>
               <div className="flex flex-col">
                 <h3 className="font-bold mb-1 text-base">Cool Stuff</h3>
-                <Link href="https://github.com/seajayrubynose/cafely-manual">
-                  User Manual
+                <Link href="/manual/GettingStarted">
+                  <a className="hover:text-yellow-400">User Manual</a>
                 </Link>
-                <Link href="https://github.com/seajayrubynose/cafely-manual">
-                  Dev Journal
+                <Link href="/journal">
+                  <a className="hover:text-yellow-400">Dev Journal</a>
                 </Link>
               </div>
             </div>
@@ -35,10 +35,10 @@ const Footer = () => {
             <div className="flex flex-col">
               <h3 className="font-bold mb-1 text-base">Links</h3>
               <Link href="https://github.com/seajayrubynose/cafely-manual">
-                GitHub Source Code
+                <a className="hover:text-yellow-400">GitHub Source Code</a>
               </Link>
-              <Link href="https://github.com/seajayrubynose/cafely-manual">
-                Visit Cafe.ly
+              <Link href="https://cafely.vercel.app/">
+                <a className="hover:text-yellow-400">Visit Cafe.ly</a>
               </Link>
             </div>
           </div>
