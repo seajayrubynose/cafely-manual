@@ -12,5 +12,5 @@ order: 9
 
 More:
 
-- [Create Account](/manual/CreateAccount)
+- [Create Account](/manual/CreatingAccount)
 - [Can't Sign In](/manual/CantSignIn)

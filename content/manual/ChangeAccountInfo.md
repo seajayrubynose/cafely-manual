@@ -12,6 +12,8 @@ Make sure you are [logged in](/manual/LoggingIn) first
 2. Click **Account Settings** on the drop-down menu.
    ![ChangingAccountInfo](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_0.jpg)
 
+---
+
 ## Changing your Profile Picture
 
 You have two options for changing your profile picture:
@@ -54,15 +56,14 @@ You have two options for changing your profile picture:
 
 <!-- ### <a name="upload_using_link" style={{textDecoration: "none"}}>Upload using Link</a> -->
 
+---
+
 ## Changing your Display Name and Bio
 
 1.  Change the **Display Name** to whatever you want.
 2.  Change the **Bio** to whatever you want.
-3.  Click on **[Update my profile]**.
+3.  Click on **[Update my profile]**. Otherwise, changes will not be saved.
     ![ChangingAccountInfo](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_1.jpg)
-
-        Your changes will not be saved until you press the button.
-
     ![ChangingAccountInfo](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/changingaccountinfo_2.jpg)
 
 ## Changing your Email and Password
@@ -76,5 +77,5 @@ You have two options for changing your profile picture:
 
 Related Articles
 
-- 🤩 [Create Account &rarr;](/manual/CreateAccount)
+- 🤩 [Create Account &rarr;](/manual/CreatingAccount)
 - 😭 [Can't Sign In (Not Available)](/manual/CantSignIn)

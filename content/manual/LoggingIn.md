@@ -23,7 +23,7 @@ You are now logged into your account!
 
 Related Articles
 
-- 🚪 [Signing Out Of Your Account &rarr;](/SigningOut)
-- 😎 [Change Account Info &rarr;](/ChangeAccountInfo)
+- 🚪 [Signing Out Of Your Account &rarr;](/manual/SigningOut)
+- 😎 [Change Account Info &rarr;](/manual/ChangeAccountInfo)
 - 😭 [Can't Sign In (Not Available)](/manual/CantSignIn)
 - 🤩 [Create Account &rarr;](/manual/CreateAccount)

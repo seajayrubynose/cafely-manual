@@ -26,4 +26,4 @@ order: 6
 
 Related Articles
 
-- 😎 [Change Account Info &rarr;](/ChangeAccountInfo)
+- 😎 [Change Account Info &rarr;](/manual/ChangeAccountInfo)

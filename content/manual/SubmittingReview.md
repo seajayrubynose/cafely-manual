@@ -46,4 +46,4 @@ You can also click on these buttons to directly review a product without searchi
 
 Related articles
 
-- 😎 [Change Account Info &rarr;](/ChangeAccountInfo)
+- 😎 [Change Account Info &rarr;](/manual/ChangeAccountInfo)
