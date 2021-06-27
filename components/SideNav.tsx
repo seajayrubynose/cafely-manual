@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
+import { useRouter } from "next/router";
 
 interface SideNavProps {
   additionalClass?: string;
@@ -10,6 +11,7 @@ interface SideNavProps {
 }
 
 const SideNav = ({ additionalClass, links, isActive }: SideNavProps) => {
+  const router = useRouter();
   const animation = useAnimation();
 
   const isMD = useMediaQuery({ query: "(min-width: 768px)" }); // based on tailwind
@@ -66,7 +68,13 @@ const SideNav = ({ additionalClass, links, isActive }: SideNavProps) => {
             return (
               <Link key={link.slug} href={`/manual/${link.slug}`}>
                 <a>
-                  <li className="hover:text-yellow-300">{link.title}</li>
+                  <li
+                    className={`hover:text-yellow-300 ${
+                      router.query.slug === link.slug && "font-semibold"
+                    }`}
+                  >
+                    {link.title}
+                  </li>
                 </a>
               </Link>
             );
