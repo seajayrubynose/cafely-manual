@@ -4,6 +4,7 @@ import matter from "gray-matter";
 
 const contentDirectory = path.join(process.cwd(), "content");
 const manualDirectory = path.join(contentDirectory, "manual");
+const journalDirectory = path.join(contentDirectory, "journal");
 
 export function getAllManualContent() {
   const allManualContent = fs.readdirSync(manualDirectory);
@@ -36,4 +37,26 @@ export function getAllManualLinks() {
   });
 
   return toReturn.sort((a, b) => (a.order > b.order ? 1 : -1));
+}
+
+export function getJournalContent() {
+  const journalContent = fs.readdirSync(journalDirectory);
+
+  console.log(journalContent);
+}
+
+// temporary:
+export function getMainEntry() {
+  const mainEntryContent = fs.readFileSync(
+    path.join(journalDirectory, "MainEntry.md"),
+    "utf8"
+  );
+  const slug = "MainEntry";
+  const { data, content } = matter(mainEntryContent);
+
+  return {
+    data,
+    content,
+    slug,
+  };
 }
