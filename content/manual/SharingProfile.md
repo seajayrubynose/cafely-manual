@@ -8,13 +8,13 @@ order: 6
 
 1. Go to [cafely.vercel.app/profile](https://cafely.vercel.app/profile)
 
-2. Click on **[Get Profile Link]**
-
-   [Image here]
+2. Click on **[Share Profile]**
 
    _This will copy the link_
 
 3. Share that link with your friends!
+
+![Share Profile Image](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/manual_images/sharingyourprofile_0.jpg)
 
 ---
 
