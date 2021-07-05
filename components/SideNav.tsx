@@ -54,7 +54,7 @@ const SideNav = ({ additionalClass, links, isActive }: SideNavProps) => {
   return (
     <motion.div
       animate={animation}
-      className={`overflow-y-auto bg-primary p-5 pt-16 flex-grow flex-shrink-0 w-56" absolute z-10 h-full md:block md:relative md:h-auto ${
+      className={`overflow-y-auto bg-primary pt-16 flex-grow flex-shrink-0 w-56" absolute z-10 h-full md:block md:relative md:h-auto ${
         ""
         // isActive && "hidden"
       }`}
@@ -62,15 +62,17 @@ const SideNav = ({ additionalClass, links, isActive }: SideNavProps) => {
         boxShadow: "7px 0px 20px 0px rgba(50, 50, 50, 0.20)",
       }}
     >
-      <ul className="text-sm flex flex-col space-y-4 text-white">
+      <ul className="text-sm flex flex-col text-white">
         {links &&
           links.map((link) => {
             return (
               <Link key={link.slug} href={`/manual/${link.slug}`}>
                 <a>
                   <li
-                    className={`hover:text-yellow-300 ${
-                      router.query.slug === link.slug && "font-semibold"
+                    className={`px-5 h-10 flex items-center ${
+                      router.query.slug === link.slug
+                        ? "font-semibold bg-yellow-400"
+                        : "hover:bg-yellow-500"
                     }`}
                   >
                     {link.title}
