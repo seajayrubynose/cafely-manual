@@ -25,10 +25,13 @@ export default function Home() {
           backgroundSize: "cover",
         }}
       >
-        <div className="absolute flex flex-grow flex-col w-full h-full bg-white opacity-40"></div>
+        <div className="absolute flex flex-grow flex-col w-full h-full bg-gray-600 opacity-40"></div>
         <div className="relative max-w-5xl h-full mx-auto flex flex-col space-y-6 items-center text-gray-800 text-center py-20 px-10">
-          <h1 className="font-extrabold text-5xl md:text-7xl text-gray-900">
-            Cafe.ly's User Manual
+          <h1 className="font-extrabold text-5xl md:text-7xl text-white">
+            <span className="text-transparent bg-clip-text bg-gradient-to-l from-primary to-yellow-400">
+              Cafe.ly's
+            </span>{" "}
+            User Manual
           </h1>
           <p className="text-sm md:text-base">
             ☕ An <b>awesome guide</b> to the most awesome coffee review site in
