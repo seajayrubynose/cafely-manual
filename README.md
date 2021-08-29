@@ -1,6 +1,6 @@
 # 📔 Cafe.ly's User Manual
 
-![site preview image](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/meta/manual_preview_markdown.jpg)
+![img preview](https://raw.githubusercontent.com/seajayrubynose/cafely-pictures/master/meta/manual_preview_markdown.jpg)
 
 [Visit Site &rarr;](https://cafely-manual.vercel.app/)
 
